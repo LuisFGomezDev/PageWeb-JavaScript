@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF 8" />
+        <title>JAVASCRIPT-PROYECTO-COMPLETO-1</title>
+
+        <script type="text/Javascript">
+        </script>
+
+        
+        <!-- Ruta Estilos CSS -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link id="theme" rel="stylesheet" type="text/css" href="css/blue.css" />
+
+
+        <!-- Ruta para cargar el Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!-- Rutas para cargar el Slider -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        <!-- Rutas para cargar el Slider 
+        <script type="text/Javascript" src="js/main.js"></script>-->
+
+        <!-- Mis Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/es.min.js"></script>
+
+
+    </head>
+
+    <body>
+        <!-- BOTONERA CAMBIO DE TEMAS -->
+        <div id="selector-theme">
+            <div id="to-green"> </div>
+            <div id="to-red"> </div>
+            <div id="to-blue"> </div>
+        </div>
+
+
+        <!-- CONTENIDO CUERPO -->
+
+        <section id="global">
+
+            <!-- Cabecera -->
+
+            <header>
+                <div id="logo">
+                    <h1>Proyecto JS</h1>
+                </div>
+
+                <div class="clearfix"></div>
+           
+                <navbar id="menu">
+                    <ul>
+                    <li id="first-opt"><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre Mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </navbar>
+
+            </header>
+
+            <!-- Slider -->
+            <div id="Slider">
+                <div class="bxslider">
+                    <div><img src="img/Developer.jpg" title="Funky"></div>
+                    <div><img src="img/Developer.jpg" title="Funky"></div>
+                    <div><img src="img/Developer.jpg" title="Funky"></div>
+                  </div>
+            </div>
+
+            <!-- Contenido -->
+            <section id="content1">
+                
+                <div id="posts">
+            <!-- Cargamos todos y cada uno de los articulos desde un JSON-->
+
+                </div>
+
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4><span>¿Quien Soy?</span></h4>
+                        
+                        <img src="img/Developer.jpg"/>
+
+                        <hr>
+
+                        <p><strong>Ningún Usuario Conectado</strong></p>
+
+                                                <hr>
+
+                    </div>
+
+                    <div id="login">
+                        <h4><span>Identificate</span></h4>
+                        <form>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="form_name"/>
+
+                            <label for="email">Correo</label>
+                            <input type="email" name="email" id="form_email"/>
+
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="form_password"/>
+
+                        </br>
+
+                        <h4><span><input type="submit" value="LOGIN" /></span></h4>
+
+                        </form>
+                    </div>
+
+
+                </aside>
+
+                <!-- Esta Clase permite limpiar los Flotados de los elementos -->
+                <div class="clearfix"></div>
+
+            </section>
+
+
+
+        </section>
+
+        <footer>Curso de Javascript MASTER
+            <a href="#" class="subir">Ir Arriba</a>
+        </footer>
+        
+        <script type="text/Javascript" src="js/main.js"></script>
+
+    </body>
+</html>

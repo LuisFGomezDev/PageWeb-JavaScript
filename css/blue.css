@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: url("../img/HTML-BACKGROUND.jpg");
+    background-attachment: fixed;
+}
+
+#logo
+{
+    background: #00ffff;
+}
+
+#menu ul li:hover
+{
+    background-color: #00ffff;
+
+}
+
+#first-opt
+{
+    background-color: #00ffff;
+}
+
+
+.button-more
+{
+    background: #00ffff;
+}
+
+.button-more:hover
+{
+    background-color: gray;
+}
+
+#sidebar h4 span
+{
+    background: white;
+}
+
+form input[type="submit"]
+{
+    background: gray;
+}
+
+form input[type="submit"]:hover
+{
+    background-color: #00ffff;
+}
+
+footer
+{
+    background: rgba(51,51,51,0.70);
+}
+
+
